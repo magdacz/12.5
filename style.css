@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script|Open+Sans:400,800&subset=latin-ext');
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: #E6ECF0;
+}
+
+h1 {
+	text-align: center;
+	padding: 30px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 800;
+	font-size: 50px;
+}
+
+.box {
+	margin: 0 auto;
+	width: 600px;
+	border: 3px solid #4AB3F4;
+	border-radius: 10px;
+	padding: 30px;
+	margin-top: 20px;
+
+}
+
+.box .quote {
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: regular;
+}
+
+.box .author {
+	text-align: right;
+	padding-top: 10px;
+	font-family: 'Dancing Script', cursive;
+}
+
+.trigger {
+	display: block;
+	margin: 0 auto;
+	padding: 10px 15px;
+	margin-top: 20px;
+	margin-bottom: 10px;
+	background: #4AB3F4;
+	color: #fff;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	border: none;
+	cursor: pointer;
+}
+
+a {
+	display: block;
+	text-align: center;
+	color: #4AB3F4;
+	font-size: 20px;
+}
